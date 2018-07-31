@@ -7,7 +7,12 @@ end
 
   get '/name' do
     "My name is "
-  end
+end
 
-class Hometown < Sinatra::Base
+get '/hometown' do
+  "My hometown is "
+end
+
+get 'favorite-song'do
+  "My favorite song is"
   
